@@ -1,5 +1,6 @@
-export default function Welcome() {
-    return (
-        <div></div>
-    )
-}  
+import React from 'react'
+export default function welcome() {
+  return (
+    <div></div>
+  )
+}

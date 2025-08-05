@@ -1,9 +1,10 @@
-export default function Layout() {
+import React from 'react'
+export default function layout() {
     return (
-        <>
-            <header>
-                <h1 className="text-gradeint">LexiMind</h1>
-            </header>
-        </>
-    )
+    <div>
+    <header>
+    <h1 className="text-gradeint">LexiMind</h1>
+    </header>
+    </div>
+  )
 }

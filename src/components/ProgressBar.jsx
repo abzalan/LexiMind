@@ -1,5 +1,7 @@
-export default function PorgressBar() {
-    return(
-        <div></div>
-    )
+import React from 'react'
+
+export default function ProgressBar() {
+  return (
+    <div></div>
+  )
 }
