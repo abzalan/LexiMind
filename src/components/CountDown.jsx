@@ -1,5 +1,5 @@
-export default function Welcome() {
+export default function CountDown() {
     return (
         <div></div>
     )
-}  
+}

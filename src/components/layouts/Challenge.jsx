@@ -1,5 +1,5 @@
-export default function Welcome() {
+export default function Challenge() {
     return (
         <div></div>
     )
-}  
+}
