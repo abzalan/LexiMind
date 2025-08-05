@@ -1,5 +1,6 @@
 import React from 'react'
-export default function welcome() {
+
+export default function StartTask() {
   return (
     <div></div>
   )

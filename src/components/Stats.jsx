@@ -1,5 +1,6 @@
 import React from 'react'
-export default function welcome() {
+
+export default function Stats() {
   return (
     <div></div>
   )
