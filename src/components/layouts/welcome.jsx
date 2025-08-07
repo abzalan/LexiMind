@@ -14,7 +14,7 @@ export default function welcome(props) {
         <input value={name} onChange={(evt) => {
         console.log(evt.target.value)
         setName(evt.target.value)
-        }} type="text" placehoder="Enter your name..." />
+        }} type="text" placehoder="Please Enter your Name..." />
         <button onClick={handleCreateAccount}>
           <h6>Start &raquo;</h6>
         </button>

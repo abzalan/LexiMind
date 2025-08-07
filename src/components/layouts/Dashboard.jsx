@@ -1,7 +1,12 @@
-import React from 'react'
-
-export default function Dashboard() {
+import States from "../Stats"
+import Countdown from "../CountDown"
+import History from "../History"
+export default function Dashboard(props) {
   return (
-    <div></div>
+  <section id="dashboard">
+    <Stats {...props} />
+    <Countdown {...props} />
+    <History {...props} />
+    </section>
   )
 }

@@ -57,6 +57,10 @@ section {
     max-width: 100%;
 }
 
+#welcome input ::placeholder{
+    color: var(--color-placeholder);
+}
+
 #welcome button {
     display: grid;
     place-items: center;

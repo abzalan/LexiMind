@@ -2,7 +2,7 @@ import Layout from "./components/layouts/layout"
 
 function App() {
   return (
-    <Layout></Layout>
+  <Layout></Layout>
   )
 }
 
