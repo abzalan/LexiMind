@@ -4,13 +4,29 @@ LexiMind is a powerful vocabulary training web app built with React.js, designed
 ---
 
 <img src="/public/cover.png" 
-alt="Apzhuss - Abdisalaan H. Abdi..">
+alt="leximind - by: @Abdisalaan H. Abdi..">
 
-## 🚀 Tech Stack & Features
+## 🚀 Features
 
-- React.js 
+- Setting up a modern React project with Vite
 
-- Fanta.CSS
+- Functional components and JSX
+
+- React state (useState) and events
+
+- Lifting state and passing props
+
+- Mapping, filtering, and conditional rendering
+
+- Custom hooks for reuse and separation of concerns
+
+- Spaced repetition logic and daily word scheduling
+
+- Saving and retrieving progress with localStorage
+
+- Gamifying learning with streaks and progress indicators
+
+- Deploying React apps to the web with Vercel
  
 
 ## Getting Started
