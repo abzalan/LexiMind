@@ -1,4 +1,4 @@
-export default function welcome(props) {
+export default function Welcome(props) {
   const { name, setName, handleCreateAccount } = props;
 
   return (
