@@ -11,7 +11,6 @@ import { countdownIn24Hours, getWordByIndex, PLAN } from "./utils"
 
 function App() {
   const [selectedPage, setSelectedPage] = useState(0)
-  // const selectedPage = 2 // zero is for welcome, 1 is for dashboard, 2 is for challenge
   const [name, setName] = useState("")
   const [day, setDay] = useState(1)
   const [datetime , setDatetime] = useState(null)
@@ -48,26 +47,19 @@ function App() {
   }
 
     function handleIncrementAttempts() {
-    // take the current attempt number, and add one and save it to local storage
     const newRecord = attempts + 1
     localStorage.setItem('attempts', newRecord)
     setAttempts(newRecord)
   }
 
   useEffect(() => {
-    // this callback function is triggered on page load
     if (!localStorage) { return } // if we don't yet have access to the database, then exit the callback function
-
     if (localStorage.getItem('username')) {
-      // if we find the item (so get item returns something), then we enter the if block
       setName(localStorage.getItem('username'))
-
-      // we have a name, so we can skip to the dashboard
       setSelectedPage(1)
     }
 
     if (localStorage.getItem('attempts')) {
-      // then wefound attempts
       setAttempts(parseInt(localStorage.getItem('attempts')))
     }
 

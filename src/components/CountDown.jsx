@@ -3,12 +3,10 @@ import { convertMilliseconds, countdownIn24Hours } from "../utils"
 
 export default function Countdown(props) {
     const { handleChangePage, daysWords, datetime, day } = props
-
     const targetMillis = datetime || Date.UTC(1944, 2, 17, 12, 0, 0)
     const [remainingMs, setRemainingMs] = useState(countdownIn24Hours(targetMillis))
 
     const timer = convertMilliseconds(remainingMs)
-
     useEffect(() => {
         const interval = setInterval(() => {
             setRemainingMs(countdownIn24Hours(targetMillis))
@@ -31,7 +29,6 @@ export default function Countdown(props) {
                     <h3>{daysWords.length}</h3>
                 </div>
             </div>
-
             <button onClick={() => { handleChangePage(2) }} className="start-task">
                 <h6>Start</h6>
             </button>
