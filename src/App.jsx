@@ -1,4 +1,4 @@
-import Layout from "./components/layouts/layout"
+import Layout from "./components/layouts/Layout"
 import Welcome from "./components/layouts/Welcome"
 import Dashboard from "./components/layouts/Dashboard"
 import Challenge from "./components/layouts/Challenge"
