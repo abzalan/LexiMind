@@ -3,7 +3,7 @@ import ProgressBar from "../ProgressBar"
 import { isEncountered, shuffle } from "../../utils"
 import DEFINITIONS from '../../utils/VOCAB.json'
 
-export default function Challenge(props) {
+export default function  Challenge(props) {
     const { day, daysWords, handleChangePage, handleIncrementAttempts, handleCompleteDay, PLAN } = props
     const [wordIndex, setWordIndex] = useState(0)
     const [inputVal, setInputVal] = useState('')

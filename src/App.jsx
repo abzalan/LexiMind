@@ -1,7 +1,7 @@
 import Layout from "./components/layouts/Layout"
 import Welcome from "./components/layouts/Welcome"
-import Dashboard from "./components/layouts/Dashboard"
-import Challenge from "./components/layouts/Challenge"
+import Dashboard from './components/layouts/Dashboard'
+import Challenge from './components/layouts/Challenge'
 import { useState, useEffect } from "react"
 
 import WORDS from "./utils/VOCAB.json"
