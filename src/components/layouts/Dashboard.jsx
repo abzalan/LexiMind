@@ -1,4 +1,4 @@
-import States from "../Stats"
+import Stats from "../Stats"
 import Countdown from "../CountDown"
 import History from "../History"
 export default function Dashboard(props) {
