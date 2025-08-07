@@ -3,8 +3,6 @@ import ProgressBar from './ProgressBar'
 
 export default function Stats(props) {
   const { name, day, attempts, PLAN } = props
-  // const name = "apzhuss"
-
   const currLvl = calcLevel(day)
   const flooredLvl = Math.floor(currLvl)
   const remainder = (currLvl - flooredLvl) * 100 
@@ -16,7 +14,6 @@ export default function Stats(props) {
           {name}
         </h4>
       </div>
-
       <div className="stats-column">
         <div>
           <p>Streak 🔥</p>
